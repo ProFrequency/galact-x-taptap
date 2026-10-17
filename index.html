@@ -1,1 +1,215 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galact-X - Official TapTap Edition</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://squarespace-cdn.com');
+            background-color: #000000;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            min-height: 100vh;
+            padding: 60px 20px;
+        }
+        .container {
+            background-color: rgba(0, 0, 0, 0.85);
+            padding: 40px 30px;
+            border-radius: 24px;
+            max-width: 700px;
+            width: 100%;
+            box-shadow: 0 0 45px rgba(0, 102, 255, 0.5);
+            border: 1px solid rgba(0, 102, 255, 0.3);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            text-align: center;
+        }
+        h1 {
+            font-size: 3.5rem;
+            letter-spacing: 6px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            text-shadow: 0 0 15px #0066ff, 0 0 30px #0066ff;
+        }
+        .subtitle {
+            font-size: 1.1rem;
+            color: #b0c4de;
+            margin-bottom: 35px;
+            font-style: italic;
+            text-align: center;
+        }
+        .btn-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            align-items: center;
+            margin-bottom: 35px;
+            width: 100%;
+        }
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            width: 100%;
+            max-width: 380px;
+            padding: 16px 30px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 50px;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            cursor: pointer;
+            border: none;
+        }
+        .btn-taptap, .btn-music {
+            background-color: #0066ff;
+            color: #ffffff;
+            box-shadow: 0 0 20px rgba(0, 102, 255, 0.6);
+        }
+        .btn-taptap:hover, .btn-music:hover {
+            background-color: #0052cc;
+            box-shadow: 0 0 35px rgba(0, 102, 255, 0.9);
+            transform: translateY(-2px);
+        }
+        h2 {
+            font-size: 1.6rem;
+            color: #0066ff;
+            margin-top: 35px;
+            margin-bottom: 15px;
+            text-align: left;
+            border-bottom: 1px solid rgba(0, 102, 255, 0.3);
+            padding-bottom: 5px;
+            text-transform: uppercase;
+        }
+        p {
+            font-size: 1.05rem;
+            line-height: 1.6;
+            color: #e0e0e0;
+            text-align: left;
+            margin-bottom: 15px;
+        }
+        .features-list {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .feature-item {
+            margin-bottom: 15px;
+            background: rgba(255, 255, 255, 0.02);
+            padding: 15px;
+            border-radius: 10px;
+            border-left: 3px solid #0066ff;
+            text-align: center;
+        }
+        .feature-item strong {
+            color: #ffffff;
+            display: block;
+            font-size: 1.1rem;
+            margin-bottom: 5px;
+        }
+        .feature-item p {
+            margin-bottom: 0;
+            font-size: 0.95rem;
+            color: #cccccc;
+            text-align: center;
+        }
+        .screenshots-panel {
+            background: rgba(0, 102, 255, 0.05);
+            padding: 25px;
+            border-radius: 12px;
+            border: 1px dashed rgba(0, 102, 255, 0.3);
+            margin-top: 35px;
+            margin-bottom: 20px;
+            font-weight: bold;
+            color: #b0c4de;
+            letter-spacing: 1px;
+        }
+        footer {
+            margin-top: 40px;
+            padding-top: 25px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            font-size: 0.95rem;
+            color: #888888;
+        }
+        footer a {
+            color: #0066ff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.2s ease;
+        }
+        footer a:hover {
+            color: #3b82f6;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>GALACT-X</h1>
+        <p class="subtitle">A brutal sci-fi horror space shooter. Can you survive the 9 Lords of Darkness?</p>
+        
+        <div class="btn-container">
+            <!-- Doar butonul TapTap si muzica au ramas pe aceasta pagina speciala -->
+            <a href="https://taptap.io" target="_blank" class="btn btn-taptap">
+                🔥 Pre-register on TapTap
+            </a>
+
+            <a href="https://soundcloud.com" target="_blank" class="btn btn-music">
+                🎧 Play Galactic X Anthem
+            </a>
+        </div>
+
+        <h2>The Mission</h2>
+        <p>A fearless man has started a mission in space against black magic. Besides the 9 bosses, enemies from the dark void flood the frontier on the way to the final portal that leads to the grand prize and home.</p>
+
+        <h2>Game Features</h2>
+        <div class="features-list">
+            <div class="feature-item">
+                <strong>Cosmic Horror Atmosphere</strong>
+                <p>Face terrifying, corrupted alien entities visualised through a dark and eerie sci-fi art style.</p>
+            </div>
+            <div class="feature-item">
+                <strong>9 Demonic Bosses</strong>
+                <p>Test your reflexes against 9 unique, massive, and unforgiving Bosses guarding the final gate of the cosmic curse.</p>
+            </div>
+            <div class="feature-item">
+                <strong>Pure Arcade Action</strong>
+                <p>Easy to learn, brutal to master. Chase the ultimate high score with fast-paced, adrenaline-pumping combat.</p>
+            </div>
+            <div class="feature-item">
+                <strong>Premium Experience</strong>
+                <p>No ads, no hidden paywalls. Just pure, uninterrupted space-horror action from start to finish.</p>
+            </div>
+        </div>
+
+        <div class="screenshots-panel">
+            📸 GAMEPLAY SCREENSHOTS & TRAILERS COMING SOON
+        </div>
+
+        <footer>
+            © 2026 protoHuman Games. All rights reserved. | <br><br>
+            <!-- Aici voi pune linkul nou de privacy special pentru TapTap imediat ce mi-l dai -->
+            <a id="privacy-link-taptap" href="LINK_NOU_AICI" target="_blank">Privacy Policy</a>
+        </footer>
+    </div>
+
+</body>
+</html>
